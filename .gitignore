@@ -1,0 +1,22 @@
+# Local OS and editor files
+.DS_Store
+**/.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Design references and generated review screenshots
+Design Moodboard/
+*-preview.jpg
+ChatGPT Image*.png
+
+# Build / dependency output
+node_modules/
+dist/
